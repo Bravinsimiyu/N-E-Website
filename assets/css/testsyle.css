@@ -289,3 +289,112 @@
     }
   }
   
+
+  /* Styles for the download section */
+.download-section {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.download-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.download-section h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.download-section p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.download-section .btn-download {
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  padding: 20px 40px; /* Increased padding */
+  font-size: 1.5rem;  /* Increased font size */
+  text-decoration: none;
+  border-radius: 8px; /* Slightly rounded corners */
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+.download-section .btn-download:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.download-section .download-info {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.download-info .download-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.download-info .download-card:hover {
+  transform: translateY(-10px);
+}
+
+.download-info h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.download-info p {
+  font-size: 1rem;
+  color: #777;
+}
+
+.download-info .btn-download-more {
+  background-color: #007BFF; /* Blue background */
+  color: white;
+  padding: 20px 40px; /* Increased padding */
+  font-size: 1.5rem;  /* Increased font size */
+  text-decoration: none;
+  border-radius: 8px;
+  margin-top: 15px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.download-info .btn-download-more:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 768px) {
+  .download-section h2 {
+    font-size: 2rem;
+  }
+
+  .download-section p {
+    font-size: 1rem;
+  }
+
+  .download-info {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .download-info .download-card {
+    width: 100%;
+  }
+}
